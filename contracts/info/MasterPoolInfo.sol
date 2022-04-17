@@ -27,7 +27,7 @@ import "./ERC20CompetitiveRewardModuleInfo.sol";
 
 contract MasterPoolInfo {
     
-    mapping(address => address) public moduleToLibrary;
+    //mapping(address => address) public moduleToLibrary;
     address ERC20StakingModule;
     address ERC721StakingModule;
     address ERC20CompetitiveRewardModule;
